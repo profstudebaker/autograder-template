@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+# CHANGE FOR NEW ASSIGNMENT
+cp /autograder/submission/Drawing.java /autograder/source/Drawing.java
+
+cd /autograder/source
+
+python3 run_tests.py
